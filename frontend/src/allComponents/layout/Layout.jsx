@@ -78,7 +78,6 @@ function Layout(props) {
       <CssBaseline />
       {/* App bar for right side above bar and hamburger appearance during small widths */}
       <AppBar
-        // position="fixed"
         position="fixed"
 
         sx={{
@@ -87,7 +86,6 @@ function Layout(props) {
           height:'100px',
           backgroundColor:'#8B50FF3D',
           color:'black',
-          // zIndex:9999
         }}
       >
         <Toolbar>
