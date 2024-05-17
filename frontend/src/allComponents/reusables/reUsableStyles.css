@@ -1,0 +1,41 @@
+.reUsableBtn{
+width: 343px;
+height: 56px;
+padding: 8px 0px 8px 0px;
+gap: 10px;
+border-radius: 16px;
+opacity: 0px;
+border: 1px solid #F1F1FA;
+outline: none;
+color: #FCFCFC;
+font-weight: 600;
+font-size: 18px;
+background-color:#7F3DFF;
+border:none;
+outline:none;
+}
+
+.balanceComponent{
+    border-radius: 30px;
+    height: 200px;
+    width:25vw;
+    background-color: white;
+    margin:2vw;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.bal-icon{
+    height:100px;
+    width:100px;
+    background-color: #7F3DFF;
+    
+}
+.money-text{
+    font-size: 1rem;
+}
+
+.money-money{
+font-size: 2rem;
+}

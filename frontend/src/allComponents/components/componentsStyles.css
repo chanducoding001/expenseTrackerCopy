@@ -1,0 +1,55 @@
+
+.activeLink{
+    background-color: yellowgreen;
+}
+.make-center{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+    width:100%;
+}
+.layout-fixed-height{
+    height:calc(100vh - 100px);
+}
+.layout-dynamic-height{
+    height:100%;
+}
+.layout-bg-color{
+    /* background-color: #0077FF; */
+    background-color: #8B50FF3D;
+    /* background-color: blueviolet; */
+}
+/* .dynamic-layout-bg-color{
+    background-color: blueviolet;
+} */
+.space-around{
+    justify-content: space-around;
+}
+.addNewAccount-card{
+    width:30vw;
+    height: 50vh;
+    margin-top: 20px;
+}
+.heading-title{
+    text-align: center;
+    padding:20px 0;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.home-account-container{
+    background-color: blueviolet;
+    width:50vw;
+    margin:20px;
+}
+.account-balance-container{
+    display: flex;
+    background-color: azure;
+    justify-content: space-around;
+    align-items: center;
+    height:100px;
+}
+.balance-container{
+    display:flex;
+}

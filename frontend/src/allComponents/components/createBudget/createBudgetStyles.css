@@ -1,0 +1,18 @@
+
+.monthly-carousel-container{
+    background-color: orange;
+    position:fixed;
+    width:calc(100vw - 200px);
+}
+
+.budget-lists{
+    position: relative;
+    top:100px;
+}
+.create-budget-btn-container{
+    position: fixed;
+    background-color: white;
+    bottom: 0;
+    width:calc(100vw - 200px);
+    text-align: center;
+}

@@ -1,0 +1,190 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.css-1o5pq7n{
+  background-color: #212325;
+}
+.signup-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    height:100vh;
+}
+.signup-slider{
+    width:30vw;
+}
+.carousel-container {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add box shadow to the carousel container */
+    border-radius: 10px; /* Optional: Add border radius for rounded corners */
+  }
+  .carousel-heading{
+    color:#212325;
+    font-weight: 700;
+    font-size: 32px;
+  }
+  .carousel-text{
+    font-weight: 500;
+    font-size: 16px;
+    color: #91919F;
+  }
+/* carousel inbuilt classnames styling */
+
+/* SignUpSlider.css */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  /* background-color: black; Change control color to black */
+  width: 40px; /* Increase width of controls */
+  height: 40px; /* Increase height of controls */
+  background-color: blueviolet;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 8%; /* Adjust width of the controls wrapper */
+}
+
+.carousel-control-prev {
+  left: -10%; /* Adjust position of the left control */
+}
+
+.carousel-control-next {
+  right: -10%; /* Adjust position of the right control */
+}
+
+.signup-btns-container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.signUpForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    width:100vw;
+    background-color: #91919F;
+}
+.signup-header{
+  color:#212325;
+  font-weight: 600;
+  font-size: 32px;
+}
+.inputField{
+width: 343px;
+height: 56px;
+top: 164px;
+left: 16px;
+padding: 8px 16px 8px 16px;
+gap: 10px;
+border-radius: 16px;
+border: 1px solid #F1F1FA;
+opacity: 0px;
+cursor:pointer;
+}
+.inputField:focus{
+  border: 1px solid blue;
+  outline: 1px solid blue;
+}
+.inputField:hover{
+  outline:1px solid blue;
+  border:1px solid blue;
+}
+.googleIcon{
+  height:25px;
+  width:25px;
+  position: absolute;
+  left:55px;
+  top:15px;
+}
+
+.password-toggle-icon {
+  position: relative;
+  top:-40px;
+  left: 300px;
+
+}
+
+.password-toggle-icon svg {
+  color:rgb(123, 180, 180);
+}
+
+.error{
+    color:red;
+    text-align: center;
+    width:300px;
+}
+.signUpBtnContainer{
+    display: flex;
+    flex-direction: column;
+}
+.inputCheckbox{
+    width:100px;
+    height:30px;
+    
+}
+
+.link-tag{
+  text-decoration: none;
+  color:white;
+font-weight: 600;
+font-size: 18px;
+border-bottom: 2px solid transparent;
+text-align: center;
+}
+.otp-send-again-btn{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color:black;
+  font-weight: 600;
+  outline: none;
+  background: none;
+  border-bottom: 4px solid transparent;
+
+}
+.otp-send-again-btn:hover{
+  border-bottom: 4px solid black;
+  color: yellow;
+
+}
+.link-tag:hover{
+  border-bottom: 2px solid white;
+}
+.link-tail-text{
+  font-size: 18px;
+  font-weight: 600;
+  color:rgb(229, 237, 212);
+  text-align: center;
+}
+
+.otp-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+  width:100vw;
+  background-color: #91919F;
+}
+
+.otp-wrapper{
+  margin:20px 0 20px 0;
+}
+
+.otp-input{
+   width:40px;
+   height:40px;
+  padding:20px;
+  border:2px solid black;
+  color:black;
+  font-size: 30px;
+  border-radius: 50%;
+}
+

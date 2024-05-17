@@ -1,0 +1,58 @@
+.recent-transaction-heading{
+    display: flex;
+    width:50vw;
+    align-items: center;
+    justify-content: space-between;
+}
+.recent-transaction-heading-text{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.recent-transaction-button{
+    width:100px;
+    padding:10px;
+    font-weight: 500;
+    font-size: medium;
+    color:blue;
+    background-color: #EEE5FF;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+.recent-transaction-button:hover{
+    background-color: blueviolet;
+    color:whitesmoke;
+}
+.single-transaction-container{
+    height:150px;
+    width:50vw;
+    background-color: 8B50FF;
+    margin:10px 0;
+    padding:20px;
+    display: flex;
+    flex:1;
+}
+
+.single-transaction-title-text{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    
+    flex:2;
+}
+.single-transaction-icon{
+    height:100%;
+    width:90px;
+    padding:10px;
+    background-color: aquamarine;
+    border-radius: 40%;
+    margin-right: 20px;
+}
+
+.single-transaction-spent-time{
+    flex:2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
